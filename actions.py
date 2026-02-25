@@ -1,4 +1,4 @@
-"""Action dataclass and curated action data for the Toddler Timeline Planner."""
+"""Action dataclass and curated action data for Spoon."""
 from dataclasses import dataclass, field
 
 

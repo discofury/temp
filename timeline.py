@@ -1,4 +1,4 @@
-"""Timeline computation engine for the Toddler Timeline Planner."""
+"""Timeline computation engine for Spoon."""
 from __future__ import annotations
 
 import calendar

@@ -1,4 +1,4 @@
-"""RED/GREEN TDD tests for the Toddler Timeline Planner."""
+"""RED/GREEN TDD tests for Spoon."""
 from datetime import date
 from collections import Counter
 import pytest
@@ -364,7 +364,7 @@ class TestRoutes:
 
     def test_homepage_has_title(self, client):
         resp = client.get("/")
-        assert "Toddler Timeline" in resp.text
+        assert "Spoon" in resp.text
 
     def test_timeline_post_returns_200(self, client):
         resp = client.post("/timeline", data={"current_date": "2026-02-25", "age_months": "14"})
